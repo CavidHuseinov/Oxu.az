@@ -1,0 +1,11 @@
+D:\Projects\Oxu\Oxu.Test\bin\Debug\net8.0\Oxu.Test.deps.json
+D:\Projects\Oxu\Oxu.Test\bin\Debug\net8.0\Oxu.Test.dll
+D:\Projects\Oxu\Oxu.Test\bin\Debug\net8.0\Oxu.Test.pdb
+D:\Projects\Oxu\Oxu.Test\obj\Debug\net8.0\Oxu.Test.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Oxu\Oxu.Test\obj\Debug\net8.0\Oxu.Test.AssemblyInfoInputs.cache
+D:\Projects\Oxu\Oxu.Test\obj\Debug\net8.0\Oxu.Test.AssemblyInfo.cs
+D:\Projects\Oxu\Oxu.Test\obj\Debug\net8.0\Oxu.Test.csproj.CoreCompileInputs.cache
+D:\Projects\Oxu\Oxu.Test\obj\Debug\net8.0\Oxu.Test.dll
+D:\Projects\Oxu\Oxu.Test\obj\Debug\net8.0\refint\Oxu.Test.dll
+D:\Projects\Oxu\Oxu.Test\obj\Debug\net8.0\Oxu.Test.pdb
+D:\Projects\Oxu\Oxu.Test\obj\Debug\net8.0\ref\Oxu.Test.dll
