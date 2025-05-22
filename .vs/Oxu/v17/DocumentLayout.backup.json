@@ -3,6 +3,70 @@
   "WorkspaceRootPath": "D:\\Projects\\Oxu\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D44ADD3F-A68C-4EDF-8488-244E7EA1DF55}|Oxu.WebAPI\\Oxu.WebAPI.csproj|d:\\projects\\oxu\\oxu.webapi\\externalcontroller\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44ADD3F-A68C-4EDF-8488-244E7EA1DF55}|Oxu.WebAPI\\Oxu.WebAPI.csproj|solutionrelative:oxu.webapi\\externalcontroller\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44ADD3F-A68C-4EDF-8488-244E7EA1DF55}|Oxu.WebAPI\\Oxu.WebAPI.csproj|d:\\projects\\oxu\\oxu.webapi\\oxu.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D44ADD3F-A68C-4EDF-8488-244E7EA1DF55}|Oxu.WebAPI\\Oxu.WebAPI.csproj|solutionrelative:oxu.webapi\\oxu.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9E3AE9E-9870-4706-BC3C-932FEEEC61A5}|Oxu.Presentation\\Oxu.Presentation.csproj|d:\\projects\\oxu\\oxu.presentation\\controllers\\headbannertranslationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9E3AE9E-9870-4706-BC3C-932FEEEC61A5}|Oxu.Presentation\\Oxu.Presentation.csproj|solutionrelative:oxu.presentation\\controllers\\headbannertranslationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9E3AE9E-9870-4706-BC3C-932FEEEC61A5}|Oxu.Presentation\\Oxu.Presentation.csproj|d:\\projects\\oxu\\oxu.presentation\\controllers\\headbannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9E3AE9E-9870-4706-BC3C-932FEEEC61A5}|Oxu.Presentation\\Oxu.Presentation.csproj|solutionrelative:oxu.presentation\\controllers\\headbannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9E3AE9E-9870-4706-BC3C-932FEEEC61A5}|Oxu.Presentation\\Oxu.Presentation.csproj|d:\\projects\\oxu\\oxu.presentation\\oxu.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F9E3AE9E-9870-4706-BC3C-932FEEEC61A5}|Oxu.Presentation\\Oxu.Presentation.csproj|solutionrelative:oxu.presentation\\oxu.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D52B981-1640-4FFF-B78F-1A650F8F2666}|Oxu.Infrastructure\\Oxu.Infrastructure.csproj|d:\\projects\\oxu\\oxu.infrastructure\\infrastructureserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D52B981-1640-4FFF-B78F-1A650F8F2666}|Oxu.Infrastructure\\Oxu.Infrastructure.csproj|solutionrelative:oxu.infrastructure\\infrastructureserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D52B981-1640-4FFF-B78F-1A650F8F2666}|Oxu.Infrastructure\\Oxu.Infrastructure.csproj|d:\\projects\\oxu\\oxu.infrastructure\\services\\fileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D52B981-1640-4FFF-B78F-1A650F8F2666}|Oxu.Infrastructure\\Oxu.Infrastructure.csproj|solutionrelative:oxu.infrastructure\\services\\fileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89CF8935-BDEF-43F5-9AA5-54A09BA8FAF3}|Oxu.Application\\Oxu.Application.csproj|d:\\projects\\oxu\\oxu.application\\extensions\\fileextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89CF8935-BDEF-43F5-9AA5-54A09BA8FAF3}|Oxu.Application\\Oxu.Application.csproj|solutionrelative:oxu.application\\extensions\\fileextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68AC5AEC-7DA1-4064-A9AA-0C406E319FD3}|Oxu.Domain\\Oxu.Domain.csproj|d:\\projects\\oxu\\oxu.domain\\dtos\\fileupload\\fileurldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68AC5AEC-7DA1-4064-A9AA-0C406E319FD3}|Oxu.Domain\\Oxu.Domain.csproj|solutionrelative:oxu.domain\\dtos\\fileupload\\fileurldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89CF8935-BDEF-43F5-9AA5-54A09BA8FAF3}|Oxu.Application\\Oxu.Application.csproj|d:\\projects\\oxu\\oxu.application\\iservices\\ifileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89CF8935-BDEF-43F5-9AA5-54A09BA8FAF3}|Oxu.Application\\Oxu.Application.csproj|solutionrelative:oxu.application\\iservices\\ifileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D52B981-1640-4FFF-B78F-1A650F8F2666}|Oxu.Infrastructure\\Oxu.Infrastructure.csproj|d:\\projects\\oxu\\oxu.infrastructure\\oxu.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1D52B981-1640-4FFF-B78F-1A650F8F2666}|Oxu.Infrastructure\\Oxu.Infrastructure.csproj|solutionrelative:oxu.infrastructure\\oxu.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44ADD3F-A68C-4EDF-8488-244E7EA1DF55}|Oxu.WebAPI\\Oxu.WebAPI.csproj|d:\\projects\\oxu\\oxu.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44ADD3F-A68C-4EDF-8488-244E7EA1DF55}|Oxu.WebAPI\\Oxu.WebAPI.csproj|solutionrelative:oxu.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89CF8935-BDEF-43F5-9AA5-54A09BA8FAF3}|Oxu.Application\\Oxu.Application.csproj|d:\\projects\\oxu\\oxu.application\\oxu.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{89CF8935-BDEF-43F5-9AA5-54A09BA8FAF3}|Oxu.Application\\Oxu.Application.csproj|solutionrelative:oxu.application\\oxu.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68AC5AEC-7DA1-4064-A9AA-0C406E319FD3}|Oxu.Domain\\Oxu.Domain.csproj|d:\\projects\\oxu\\oxu.domain\\dtos\\fileupload\\fileuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68AC5AEC-7DA1-4064-A9AA-0C406E319FD3}|Oxu.Domain\\Oxu.Domain.csproj|solutionrelative:oxu.domain\\dtos\\fileupload\\fileuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D52B981-1640-4FFF-B78F-1A650F8F2666}|Oxu.Infrastructure\\Oxu.Infrastructure.csproj|d:\\projects\\oxu\\oxu.infrastructure\\services\\headbannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D52B981-1640-4FFF-B78F-1A650F8F2666}|Oxu.Infrastructure\\Oxu.Infrastructure.csproj|solutionrelative:oxu.infrastructure\\services\\headbannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68AC5AEC-7DA1-4064-A9AA-0C406E319FD3}|Oxu.Domain\\Oxu.Domain.csproj|d:\\projects\\oxu\\oxu.domain\\entities\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68AC5AEC-7DA1-4064-A9AA-0C406E319FD3}|Oxu.Domain\\Oxu.Domain.csproj|solutionrelative:oxu.domain\\entities\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{68AC5AEC-7DA1-4064-A9AA-0C406E319FD3}|Oxu.Domain\\Oxu.Domain.csproj|d:\\projects\\oxu\\oxu.domain\\dtos\\headbanner\\headbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68AC5AEC-7DA1-4064-A9AA-0C406E319FD3}|Oxu.Domain\\Oxu.Domain.csproj|solutionrelative:oxu.domain\\dtos\\headbanner\\headbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,20 +87,12 @@
       "RelativeMoniker": "D:0:0:{40CB3894-8956-4DCF-9DE1-42CFD152B080}|Oxu.Persistance\\Oxu.Persistance.csproj|solutionrelative:oxu.persistance\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D52B981-1640-4FFF-B78F-1A650F8F2666}|Oxu.Infrastructure\\Oxu.Infrastructure.csproj|d:\\projects\\oxu\\oxu.infrastructure\\services\\headbannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D52B981-1640-4FFF-B78F-1A650F8F2666}|Oxu.Infrastructure\\Oxu.Infrastructure.csproj|solutionrelative:oxu.infrastructure\\services\\headbannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1D52B981-1640-4FFF-B78F-1A650F8F2666}|Oxu.Infrastructure\\Oxu.Infrastructure.csproj|d:\\projects\\oxu\\oxu.infrastructure\\services\\headbannertranslationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D52B981-1640-4FFF-B78F-1A650F8F2666}|Oxu.Infrastructure\\Oxu.Infrastructure.csproj|solutionrelative:oxu.infrastructure\\services\\headbannertranslationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68AC5AEC-7DA1-4064-A9AA-0C406E319FD3}|Oxu.Domain\\Oxu.Domain.csproj|d:\\projects\\oxu\\oxu.domain\\entities\\headbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68AC5AEC-7DA1-4064-A9AA-0C406E319FD3}|Oxu.Domain\\Oxu.Domain.csproj|solutionrelative:oxu.domain\\entities\\headbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D52B981-1640-4FFF-B78F-1A650F8F2666}|Oxu.Infrastructure\\Oxu.Infrastructure.csproj|d:\\projects\\oxu\\oxu.infrastructure\\infrastructureserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D52B981-1640-4FFF-B78F-1A650F8F2666}|Oxu.Infrastructure\\Oxu.Infrastructure.csproj|solutionrelative:oxu.infrastructure\\infrastructureserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89CF8935-BDEF-43F5-9AA5-54A09BA8FAF3}|Oxu.Application\\Oxu.Application.csproj|d:\\projects\\oxu\\oxu.application\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,28 +103,16 @@
       "RelativeMoniker": "D:0:0:{40CB3894-8956-4DCF-9DE1-42CFD152B080}|Oxu.Persistance\\Oxu.Persistance.csproj|solutionrelative:oxu.persistance\\configurations\\headbannerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9E3AE9E-9870-4706-BC3C-932FEEEC61A5}|Oxu.Presentation\\Oxu.Presentation.csproj|d:\\projects\\oxu\\oxu.presentation\\controllers\\headbannertranslationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9E3AE9E-9870-4706-BC3C-932FEEEC61A5}|Oxu.Presentation\\Oxu.Presentation.csproj|solutionrelative:oxu.presentation\\controllers\\headbannertranslationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{68AC5AEC-7DA1-4064-A9AA-0C406E319FD3}|Oxu.Domain\\Oxu.Domain.csproj|d:\\projects\\oxu\\oxu.domain\\entities\\headbannertranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68AC5AEC-7DA1-4064-A9AA-0C406E319FD3}|Oxu.Domain\\Oxu.Domain.csproj|solutionrelative:oxu.domain\\entities\\headbannertranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Oxu\\Oxu.Persistance\\Migrations\\20250522143736_askdjaksd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Oxu.Persistance\\Migrations\\20250522143736_askdjaksd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44ADD3F-A68C-4EDF-8488-244E7EA1DF55}|Oxu.WebAPI\\Oxu.WebAPI.csproj|d:\\projects\\oxu\\oxu.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44ADD3F-A68C-4EDF-8488-244E7EA1DF55}|Oxu.WebAPI\\Oxu.WebAPI.csproj|solutionrelative:oxu.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40CB3894-8956-4DCF-9DE1-42CFD152B080}|Oxu.Persistance\\Oxu.Persistance.csproj|d:\\projects\\oxu\\oxu.persistance\\configurations\\headbannertranslationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40CB3894-8956-4DCF-9DE1-42CFD152B080}|Oxu.Persistance\\Oxu.Persistance.csproj|solutionrelative:oxu.persistance\\configurations\\headbannertranslationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D44ADD3F-A68C-4EDF-8488-244E7EA1DF55}|Oxu.WebAPI\\Oxu.WebAPI.csproj|d:\\projects\\oxu\\oxu.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D44ADD3F-A68C-4EDF-8488-244E7EA1DF55}|Oxu.WebAPI\\Oxu.WebAPI.csproj|solutionrelative:oxu.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9E3AE9E-9870-4706-BC3C-932FEEEC61A5}|Oxu.Presentation\\Oxu.Presentation.csproj|d:\\projects\\oxu\\oxu.presentation\\controllers\\headbannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9E3AE9E-9870-4706-BC3C-932FEEEC61A5}|Oxu.Presentation\\Oxu.Presentation.csproj|solutionrelative:oxu.presentation\\controllers\\headbannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40CB3894-8956-4DCF-9DE1-42CFD152B080}|Oxu.Persistance\\Oxu.Persistance.csproj|d:\\projects\\oxu\\oxu.persistance\\unitofworks\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,10 +121,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{40CB3894-8956-4DCF-9DE1-42CFD152B080}|Oxu.Persistance\\Oxu.Persistance.csproj|d:\\projects\\oxu\\oxu.persistance\\unitofworks\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40CB3894-8956-4DCF-9DE1-42CFD152B080}|Oxu.Persistance\\Oxu.Persistance.csproj|solutionrelative:oxu.persistance\\unitofworks\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D52B981-1640-4FFF-B78F-1A650F8F2666}|Oxu.Infrastructure\\Oxu.Infrastructure.csproj|d:\\projects\\oxu\\oxu.infrastructure\\oxu.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1D52B981-1640-4FFF-B78F-1A650F8F2666}|Oxu.Infrastructure\\Oxu.Infrastructure.csproj|solutionrelative:oxu.infrastructure\\oxu.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89CF8935-BDEF-43F5-9AA5-54A09BA8FAF3}|Oxu.Application\\Oxu.Application.csproj|d:\\projects\\oxu\\oxu.application\\iservices\\iheadbannertranslationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -101,6 +141,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{40CB3894-8956-4DCF-9DE1-42CFD152B080}|Oxu.Persistance\\Oxu.Persistance.csproj|d:\\projects\\oxu\\oxu.persistance\\persistanceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40CB3894-8956-4DCF-9DE1-42CFD152B080}|Oxu.Persistance\\Oxu.Persistance.csproj|solutionrelative:oxu.persistance\\persistanceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40CB3894-8956-4DCF-9DE1-42CFD152B080}|Oxu.Persistance\\Oxu.Persistance.csproj|d:\\projects\\oxu\\oxu.persistance\\repositories\\headbannertranslationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40CB3894-8956-4DCF-9DE1-42CFD152B080}|Oxu.Persistance\\Oxu.Persistance.csproj|solutionrelative:oxu.persistance\\repositories\\headbannertranslationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68AC5AEC-7DA1-4064-A9AA-0C406E319FD3}|Oxu.Domain\\Oxu.Domain.csproj|d:\\projects\\oxu\\oxu.domain\\irepositories\\iheadbannertranslationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -131,10 +175,6 @@
       "RelativeMoniker": "D:0:0:{F9E3AE9E-9870-4706-BC3C-932FEEEC61A5}|Oxu.Presentation\\Oxu.Presentation.csproj|solutionrelative:oxu.presentation\\assemblyreference.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44ADD3F-A68C-4EDF-8488-244E7EA1DF55}|Oxu.WebAPI\\Oxu.WebAPI.csproj|d:\\projects\\oxu\\oxu.webapi\\oxu.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D44ADD3F-A68C-4EDF-8488-244E7EA1DF55}|Oxu.WebAPI\\Oxu.WebAPI.csproj|solutionrelative:oxu.webapi\\oxu.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D44ADD3F-A68C-4EDF-8488-244E7EA1DF55}|Oxu.WebAPI\\Oxu.WebAPI.csproj|d:\\projects\\oxu\\oxu.webapi\\middlewares\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44ADD3F-A68C-4EDF-8488-244E7EA1DF55}|Oxu.WebAPI\\Oxu.WebAPI.csproj|solutionrelative:oxu.webapi\\middlewares\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -163,10 +203,6 @@
       "RelativeMoniker": "D:0:0:{40CB3894-8956-4DCF-9DE1-42CFD152B080}|Oxu.Persistance\\Oxu.Persistance.csproj|solutionrelative:oxu.persistance\\repositories\\generics\\commandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9E3AE9E-9870-4706-BC3C-932FEEEC61A5}|Oxu.Presentation\\Oxu.Presentation.csproj|d:\\projects\\oxu\\oxu.presentation\\oxu.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F9E3AE9E-9870-4706-BC3C-932FEEEC61A5}|Oxu.Presentation\\Oxu.Presentation.csproj|solutionrelative:oxu.presentation\\oxu.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{68AC5AEC-7DA1-4064-A9AA-0C406E319FD3}|Oxu.Domain\\Oxu.Domain.csproj|d:\\projects\\oxu\\oxu.domain\\irepositories\\generics\\icommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68AC5AEC-7DA1-4064-A9AA-0C406E319FD3}|Oxu.Domain\\Oxu.Domain.csproj|solutionrelative:oxu.domain\\irepositories\\generics\\icommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -179,12 +215,8 @@
       "RelativeMoniker": "D:0:0:{40CB3894-8956-4DCF-9DE1-42CFD152B080}|Oxu.Persistance\\Oxu.Persistance.csproj|solutionrelative:oxu.persistance\\migrations\\20250521150651_askd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Oxu\\Oxu.Persistance\\Configurations\\HeadBannerTranslationConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Oxu.Persistance\\Configurations\\HeadBannerTranslationConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Oxu\\Oxu.Persistance\\Repositories\\HeadBannerTranslationRepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Oxu.Persistance\\Repositories\\HeadBannerTranslationRepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40CB3894-8956-4DCF-9DE1-42CFD152B080}|Oxu.Persistance\\Oxu.Persistance.csproj|d:\\projects\\oxu\\oxu.persistance\\migrations\\20250522143736_askdjaksd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40CB3894-8956-4DCF-9DE1-42CFD152B080}|Oxu.Persistance\\Oxu.Persistance.csproj|solutionrelative:oxu.persistance\\migrations\\20250522143736_askdjaksd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -194,7 +226,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -202,31 +234,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\Mapper\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Mapper\\MappingProfile.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\Mapper\\MappingProfile.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Mapper\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FileUploadController.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.WebAPI\\ExternalController\\FileUploadController.cs",
+              "RelativeDocumentMoniker": "Oxu.WebAPI\\ExternalController\\FileUploadController.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.WebAPI\\ExternalController\\FileUploadController.cs",
+              "RelativeToolTip": "Oxu.WebAPI\\ExternalController\\FileUploadController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T15:16:06.538Z"
+              "WhenOpened": "2025-05-22T18:33:45.585Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "HeadBannerTranslationService.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Infrastructure\\Services\\HeadBannerTranslationService.cs",
-              "RelativeDocumentMoniker": "Oxu.Infrastructure\\Services\\HeadBannerTranslationService.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Infrastructure\\Services\\HeadBannerTranslationService.cs",
-              "RelativeToolTip": "Oxu.Infrastructure\\Services\\HeadBannerTranslationService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAA5wDQAAABiAAAAAAAAAA==",
+              "Title": "FileUploadService.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Infrastructure\\Services\\FileUploadService.cs",
+              "RelativeDocumentMoniker": "Oxu.Infrastructure\\Services\\FileUploadService.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Infrastructure\\Services\\FileUploadService.cs",
+              "RelativeToolTip": "Oxu.Infrastructure\\Services\\FileUploadService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T14:12:26.129Z"
+              "WhenOpened": "2025-05-22T17:40:58.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HeadbannerController.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Presentation\\Controllers\\HeadbannerController.cs",
+              "RelativeDocumentMoniker": "Oxu.Presentation\\Controllers\\HeadbannerController.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Presentation\\Controllers\\HeadbannerController.cs",
+              "RelativeToolTip": "Oxu.Presentation\\Controllers\\HeadbannerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T16:02:35.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FileUrlDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\DTOs\\FileUpload\\FileUrlDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\FileUpload\\FileUrlDto.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\DTOs\\FileUpload\\FileUrlDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\FileUpload\\FileUrlDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:37:18.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FileExtension.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Application\\Extensions\\FileExtension.cs",
+              "RelativeDocumentMoniker": "Oxu.Application\\Extensions\\FileExtension.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Application\\Extensions\\FileExtension.cs",
+              "RelativeToolTip": "Oxu.Application\\Extensions\\FileExtension.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T18:21:55.107Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "InfrastructureServiceRegistration.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Infrastructure\\InfrastructureServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Oxu.Infrastructure\\InfrastructureServiceRegistration.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Infrastructure\\InfrastructureServiceRegistration.cs",
+              "RelativeToolTip": "Oxu.Infrastructure\\InfrastructureServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:10:28.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HeadBannerTranslationController.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Presentation\\Controllers\\HeadBannerTranslationController.cs",
+              "RelativeDocumentMoniker": "Oxu.Presentation\\Controllers\\HeadBannerTranslationController.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Presentation\\Controllers\\HeadBannerTranslationController.cs",
+              "RelativeToolTip": "Oxu.Presentation\\Controllers\\HeadBannerTranslationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:27:47.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Oxu.WebAPI.csproj",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.WebAPI\\Oxu.WebAPI.csproj",
+              "RelativeDocumentMoniker": "Oxu.WebAPI\\Oxu.WebAPI.csproj",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.WebAPI\\Oxu.WebAPI.csproj*",
+              "RelativeToolTip": "Oxu.WebAPI\\Oxu.WebAPI.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-21T15:46:52.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IFileUploadService.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Application\\IServices\\IFileUploadService.cs",
+              "RelativeDocumentMoniker": "Oxu.Application\\IServices\\IFileUploadService.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Application\\IServices\\IFileUploadService.cs",
+              "RelativeToolTip": "Oxu.Application\\IServices\\IFileUploadService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:34:24.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "HeadBannerService.cs",
               "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Infrastructure\\Services\\HeadBannerService.cs",
               "RelativeDocumentMoniker": "Oxu.Infrastructure\\Services\\HeadBannerService.cs",
@@ -234,516 +359,25 @@
               "RelativeToolTip": "Oxu.Infrastructure\\Services\\HeadBannerService.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAYwDYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T15:32:35.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateHeadbannerTranslationDto.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\DTOs\\HeadbannerTranslation\\CreateHeadbannerTranslationDto.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\HeadbannerTranslation\\CreateHeadbannerTranslationDto.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\DTOs\\HeadbannerTranslation\\CreateHeadbannerTranslationDto.cs",
-              "RelativeToolTip": "Oxu.Domain\\DTOs\\HeadbannerTranslation\\CreateHeadbannerTranslationDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T14:00:22.873Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HeadbannerTranslationDto.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\DTOs\\HeadbannerTranslation\\HeadbannerTranslationDto.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\HeadbannerTranslation\\HeadbannerTranslationDto.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\DTOs\\HeadbannerTranslation\\HeadbannerTranslationDto.cs",
-              "RelativeToolTip": "Oxu.Domain\\DTOs\\HeadbannerTranslation\\HeadbannerTranslationDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T14:00:32.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateHeadBannerDto.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\DTOs\\Headbanner\\CreateHeadBannerDto.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\Headbanner\\CreateHeadBannerDto.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\DTOs\\Headbanner\\CreateHeadBannerDto.cs",
-              "RelativeToolTip": "Oxu.Domain\\DTOs\\Headbanner\\CreateHeadBannerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T15:13:33.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HeadBannerDto.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\DTOs\\Headbanner\\HeadBannerDto.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\Headbanner\\HeadBannerDto.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\DTOs\\Headbanner\\HeadBannerDto.cs",
-              "RelativeToolTip": "Oxu.Domain\\DTOs\\Headbanner\\HeadBannerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T15:14:49.157Z",
+              "WhenOpened": "2025-05-21T15:32:35.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "InfrastructureServiceRegistration.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Infrastructure\\InfrastructureServiceRegistration.cs",
-              "RelativeDocumentMoniker": "Oxu.Infrastructure\\InfrastructureServiceRegistration.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Infrastructure\\InfrastructureServiceRegistration.cs",
-              "RelativeToolTip": "Oxu.Infrastructure\\InfrastructureServiceRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T13:10:28.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApplicationServiceRegistration.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Application\\ApplicationServiceRegistration.cs",
-              "RelativeDocumentMoniker": "Oxu.Application\\ApplicationServiceRegistration.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Application\\ApplicationServiceRegistration.cs",
-              "RelativeToolTip": "Oxu.Application\\ApplicationServiceRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T15:27:23.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HeadBannerConfiguration.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\Configurations\\HeadBannerConfiguration.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Configurations\\HeadBannerConfiguration.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\Configurations\\HeadBannerConfiguration.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Configurations\\HeadBannerConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T14:48:51.784Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HeadBanner.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\Entities\\HeadBanner.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\Entities\\HeadBanner.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\Entities\\HeadBanner.cs",
-              "RelativeToolTip": "Oxu.Domain\\Entities\\HeadBanner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T14:29:16.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HeadBannerTranslation.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\Entities\\HeadBannerTranslation.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\Entities\\HeadBannerTranslation.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\Entities\\HeadBannerTranslation.cs",
-              "RelativeToolTip": "Oxu.Domain\\Entities\\HeadBannerTranslation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T13:38:15.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "HeadBannerTranslationConfiguration.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\Configurations\\HeadBannerTranslationConfiguration.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Configurations\\HeadBannerTranslationConfiguration.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\Configurations\\HeadBannerTranslationConfiguration.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Configurations\\HeadBannerTranslationConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T13:45:49.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "Oxu.WebAPI\\Program.cs",
               "ToolTip": "D:\\Projects\\Oxu\\Oxu.WebAPI\\Program.cs",
               "RelativeToolTip": "Oxu.WebAPI\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAIwB8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T14:52:36.182Z"
+              "WhenOpened": "2025-05-21T14:52:36.182Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HeadBannerTranslationController.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Presentation\\Controllers\\HeadBannerTranslationController.cs",
-              "RelativeDocumentMoniker": "Oxu.Presentation\\Controllers\\HeadBannerTranslationController.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Presentation\\Controllers\\HeadBannerTranslationController.cs",
-              "RelativeToolTip": "Oxu.Presentation\\Controllers\\HeadBannerTranslationController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAiwB8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T14:27:47.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.WebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "Oxu.WebAPI\\appsettings.json",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.WebAPI\\appsettings.json",
-              "RelativeToolTip": "Oxu.WebAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-21T14:51:15.203Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20250522143736_askdjaksd.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\Migrations\\20250522143736_askdjaksd.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Migrations\\20250522143736_askdjaksd.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\Migrations\\20250522143736_askdjaksd.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Migrations\\20250522143736_askdjaksd.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T14:37:36.517Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "HeadbannerController.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Presentation\\Controllers\\HeadbannerController.cs",
-              "RelativeDocumentMoniker": "Oxu.Presentation\\Controllers\\HeadbannerController.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Presentation\\Controllers\\HeadbannerController.cs",
-              "RelativeToolTip": "Oxu.Presentation\\Controllers\\HeadbannerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T16:02:35.218Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\UnitOfWorks\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\UnitOfWorks\\UnitOfWork.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\UnitOfWorks\\UnitOfWork.cs",
-              "RelativeToolTip": "Oxu.Persistance\\UnitOfWorks\\UnitOfWork.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T15:00:44.481Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\UnitOfWorks\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\UnitOfWorks\\IUnitOfWork.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\UnitOfWorks\\IUnitOfWork.cs",
-              "RelativeToolTip": "Oxu.Persistance\\UnitOfWorks\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T15:00:40.296Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IHeadbannerTranslationService.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Application\\IServices\\IHeadbannerTranslationService.cs",
-              "RelativeDocumentMoniker": "Oxu.Application\\IServices\\IHeadbannerTranslationService.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Application\\IServices\\IHeadbannerTranslationService.cs",
-              "RelativeToolTip": "Oxu.Application\\IServices\\IHeadbannerTranslationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T14:11:29.444Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IHeadBannerService.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Application\\IServices\\IHeadBannerService.cs",
-              "RelativeDocumentMoniker": "Oxu.Application\\IServices\\IHeadBannerService.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Application\\IServices\\IHeadBannerService.cs",
-              "RelativeToolTip": "Oxu.Application\\IServices\\IHeadBannerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T15:29:04.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CreateHeadbannerTranslationValidator.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Application\\Validators\\HeadbannerTranslation\\CreateHeadbannerTranslationValidator.cs",
-              "RelativeDocumentMoniker": "Oxu.Application\\Validators\\HeadbannerTranslation\\CreateHeadbannerTranslationValidator.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Application\\Validators\\HeadbannerTranslation\\CreateHeadbannerTranslationValidator.cs",
-              "RelativeToolTip": "Oxu.Application\\Validators\\HeadbannerTranslation\\CreateHeadbannerTranslationValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T14:07:30.706Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Oxu.Infrastructure.csproj",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Infrastructure\\Oxu.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "Oxu.Infrastructure\\Oxu.Infrastructure.csproj",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Infrastructure\\Oxu.Infrastructure.csproj",
-              "RelativeToolTip": "Oxu.Infrastructure\\Oxu.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-21T14:38:09.187Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CreateHeadBannerValidator.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Application\\Validators\\Headbanner\\CreateHeadBannerValidator.cs",
-              "RelativeDocumentMoniker": "Oxu.Application\\Validators\\Headbanner\\CreateHeadBannerValidator.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Application\\Validators\\Headbanner\\CreateHeadBannerValidator.cs",
-              "RelativeToolTip": "Oxu.Application\\Validators\\Headbanner\\CreateHeadBannerValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T15:25:54.45Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "HeadBannerTranslationRepo.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\Repositories\\HeadBannerTranslationRepo.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Repositories\\HeadBannerTranslationRepo.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\Repositories\\HeadBannerTranslationRepo.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Repositories\\HeadBannerTranslationRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T13:57:29.246Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IHeadBannerTranslationRepo.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\IRepositories\\IHeadBannerTranslationRepo.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\IRepositories\\IHeadBannerTranslationRepo.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\IRepositories\\IHeadBannerTranslationRepo.cs",
-              "RelativeToolTip": "Oxu.Domain\\IRepositories\\IHeadBannerTranslationRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T13:56:52.397Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "LanguageTypes.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\Enums\\LanguageTypes.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\Enums\\LanguageTypes.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\Enums\\LanguageTypes.cs",
-              "RelativeToolTip": "Oxu.Domain\\Enums\\LanguageTypes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T13:39:38.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Oxu.Domain.csproj",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\Oxu.Domain.csproj",
-              "RelativeDocumentMoniker": "Oxu.Domain\\Oxu.Domain.csproj",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\Oxu.Domain.csproj",
-              "RelativeToolTip": "Oxu.Domain\\Oxu.Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-21T14:24:10.495Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "PersistanceServiceRegistration.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\PersistanceServiceRegistration.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\PersistanceServiceRegistration.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\PersistanceServiceRegistration.cs",
-              "RelativeToolTip": "Oxu.Persistance\\PersistanceServiceRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T14:49:05.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "OxuDbContext.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\Context\\OxuDbContext.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Context\\OxuDbContext.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\Context\\OxuDbContext.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Context\\OxuDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T14:48:48.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ApiController.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Presentation\\Abstractions\\ApiController.cs",
-              "RelativeDocumentMoniker": "Oxu.Presentation\\Abstractions\\ApiController.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Presentation\\Abstractions\\ApiController.cs",
-              "RelativeToolTip": "Oxu.Presentation\\Abstractions\\ApiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T15:50:37.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "CreatedAtVO.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\ValueObjects\\CreatedAtVO.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\ValueObjects\\CreatedAtVO.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\ValueObjects\\CreatedAtVO.cs",
-              "RelativeToolTip": "Oxu.Domain\\ValueObjects\\CreatedAtVO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T14:26:37.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "AssemblyReference.cs.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Presentation\\AssemblyReference.cs.cs",
-              "RelativeDocumentMoniker": "Oxu.Presentation\\AssemblyReference.cs.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Presentation\\AssemblyReference.cs.cs",
-              "RelativeToolTip": "Oxu.Presentation\\AssemblyReference.cs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T15:47:06.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Oxu.WebAPI.csproj",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.WebAPI\\Oxu.WebAPI.csproj",
-              "RelativeDocumentMoniker": "Oxu.WebAPI\\Oxu.WebAPI.csproj",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.WebAPI\\Oxu.WebAPI.csproj",
-              "RelativeToolTip": "Oxu.WebAPI\\Oxu.WebAPI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-21T15:46:52.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "GlobalExceptionMiddleware.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.WebAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "Oxu.WebAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.WebAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
-              "RelativeToolTip": "Oxu.WebAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAgwEQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T15:55:09.211Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "BaseDto.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\Abstractions\\BaseDto.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\Abstractions\\BaseDto.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\Abstractions\\BaseDto.cs",
-              "RelativeToolTip": "Oxu.Domain\\Abstractions\\BaseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T15:13:44.705Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\Abstractions\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\Abstractions\\BaseEntity.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\Abstractions\\BaseEntity.cs",
-              "RelativeToolTip": "Oxu.Domain\\Abstractions\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T14:25:50.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "20250521150651_askd.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\Migrations\\20250521150651_askd.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Migrations\\20250521150651_askd.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\Migrations\\20250521150651_askd.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Migrations\\20250521150651_askd.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T15:06:51.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "HeadBannerRepo.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\Repositories\\HeadBannerRepo.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Repositories\\HeadBannerRepo.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\Repositories\\HeadBannerRepo.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Repositories\\HeadBannerRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T15:02:25.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "IHeadBannerRepo.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\IRepositories\\IHeadBannerRepo.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\IRepositories\\IHeadBannerRepo.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\IRepositories\\IHeadBannerRepo.cs",
-              "RelativeToolTip": "Oxu.Domain\\IRepositories\\IHeadBannerRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T15:02:10.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "QueryRepository.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\Repositories\\Generics\\QueryRepository.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Repositories\\Generics\\QueryRepository.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\Repositories\\Generics\\QueryRepository.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Repositories\\Generics\\QueryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T14:59:01.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "CommandRepository.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\Repositories\\Generics\\CommandRepository.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Repositories\\Generics\\CommandRepository.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\Repositories\\Generics\\CommandRepository.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Repositories\\Generics\\CommandRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T14:57:20.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "IQueryRepositories.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\IRepositories\\Generics\\IQueryRepositories.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\IRepositories\\Generics\\IQueryRepositories.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\IRepositories\\Generics\\IQueryRepositories.cs",
-              "RelativeToolTip": "Oxu.Domain\\IRepositories\\Generics\\IQueryRepositories.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T14:44:07.154Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ICommandRepository.cs",
-              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\IRepositories\\Generics\\ICommandRepository.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\IRepositories\\Generics\\ICommandRepository.cs",
-              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\IRepositories\\Generics\\ICommandRepository.cs",
-              "RelativeToolTip": "Oxu.Domain\\IRepositories\\Generics\\ICommandRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T14:43:55.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 4,
               "Title": "Oxu.Presentation.csproj",
               "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Presentation\\Oxu.Presentation.csproj",
               "RelativeDocumentMoniker": "Oxu.Presentation\\Oxu.Presentation.csproj",
@@ -751,7 +385,554 @@
               "RelativeToolTip": "Oxu.Presentation\\Oxu.Presentation.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-21T14:29:44.433Z"
+              "WhenOpened": "2025-05-21T14:29:44.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FileUploadDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\DTOs\\FileUpload\\FileUploadDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\FileUpload\\FileUploadDto.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\DTOs\\FileUpload\\FileUploadDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\FileUpload\\FileUploadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:36:51.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Oxu.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Infrastructure\\Oxu.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Oxu.Infrastructure\\Oxu.Infrastructure.csproj",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Infrastructure\\Oxu.Infrastructure.csproj",
+              "RelativeToolTip": "Oxu.Infrastructure\\Oxu.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-21T14:38:09.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Oxu.Application.csproj",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Application\\Oxu.Application.csproj",
+              "RelativeDocumentMoniker": "Oxu.Application\\Oxu.Application.csproj",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Application\\Oxu.Application.csproj",
+              "RelativeToolTip": "Oxu.Application\\Oxu.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-22T18:20:36.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "News.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\Entities\\News.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\Entities\\News.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\Entities\\News.cs",
+              "RelativeToolTip": "Oxu.Domain\\Entities\\News.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:33:17.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateHeadbannerTranslationDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\DTOs\\HeadbannerTranslation\\CreateHeadbannerTranslationDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\HeadbannerTranslation\\CreateHeadbannerTranslationDto.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\DTOs\\HeadbannerTranslation\\CreateHeadbannerTranslationDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\HeadbannerTranslation\\CreateHeadbannerTranslationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:00:22.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\Mapper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Mapper\\MappingProfile.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\Mapper\\MappingProfile.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Mapper\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:16:06.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HeadBannerDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\DTOs\\Headbanner\\HeadBannerDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\Headbanner\\HeadBannerDto.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\DTOs\\Headbanner\\HeadBannerDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\Headbanner\\HeadBannerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:14:49.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HeadBannerTranslationService.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Infrastructure\\Services\\HeadBannerTranslationService.cs",
+              "RelativeDocumentMoniker": "Oxu.Infrastructure\\Services\\HeadBannerTranslationService.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Infrastructure\\Services\\HeadBannerTranslationService.cs",
+              "RelativeToolTip": "Oxu.Infrastructure\\Services\\HeadBannerTranslationService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwDQAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:12:26.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HeadbannerTranslationDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\DTOs\\HeadbannerTranslation\\HeadbannerTranslationDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\HeadbannerTranslation\\HeadbannerTranslationDto.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\DTOs\\HeadbannerTranslation\\HeadbannerTranslationDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\HeadbannerTranslation\\HeadbannerTranslationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:00:32.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateHeadBannerDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\DTOs\\Headbanner\\CreateHeadBannerDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\Headbanner\\CreateHeadBannerDto.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\DTOs\\Headbanner\\CreateHeadBannerDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\Headbanner\\CreateHeadBannerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:13:33.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApplicationServiceRegistration.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Application\\ApplicationServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Oxu.Application\\ApplicationServiceRegistration.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Application\\ApplicationServiceRegistration.cs",
+              "RelativeToolTip": "Oxu.Application\\ApplicationServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:27:23.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HeadBannerConfiguration.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\Configurations\\HeadBannerConfiguration.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Configurations\\HeadBannerConfiguration.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\Configurations\\HeadBannerConfiguration.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Configurations\\HeadBannerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T14:48:51.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HeadBanner.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\Entities\\HeadBanner.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\Entities\\HeadBanner.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\Entities\\HeadBanner.cs",
+              "RelativeToolTip": "Oxu.Domain\\Entities\\HeadBanner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T14:29:16.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HeadBannerTranslation.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\Entities\\HeadBannerTranslation.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\Entities\\HeadBannerTranslation.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\Entities\\HeadBannerTranslation.cs",
+              "RelativeToolTip": "Oxu.Domain\\Entities\\HeadBannerTranslation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:38:15.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HeadBannerTranslationConfiguration.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\Configurations\\HeadBannerTranslationConfiguration.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Configurations\\HeadBannerTranslationConfiguration.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\Configurations\\HeadBannerTranslationConfiguration.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Configurations\\HeadBannerTranslationConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:45:49.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "Oxu.WebAPI\\appsettings.json",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.WebAPI\\appsettings.json",
+              "RelativeToolTip": "Oxu.WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T14:51:15.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20250522143736_askdjaksd.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\Migrations\\20250522143736_askdjaksd.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Migrations\\20250522143736_askdjaksd.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\Migrations\\20250522143736_askdjaksd.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Migrations\\20250522143736_askdjaksd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:37:36.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\UnitOfWorks\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\UnitOfWorks\\UnitOfWork.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\UnitOfWorks\\UnitOfWork.cs",
+              "RelativeToolTip": "Oxu.Persistance\\UnitOfWorks\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:00:44.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\UnitOfWorks\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\UnitOfWorks\\IUnitOfWork.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\UnitOfWorks\\IUnitOfWork.cs",
+              "RelativeToolTip": "Oxu.Persistance\\UnitOfWorks\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:00:40.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IHeadbannerTranslationService.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Application\\IServices\\IHeadbannerTranslationService.cs",
+              "RelativeDocumentMoniker": "Oxu.Application\\IServices\\IHeadbannerTranslationService.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Application\\IServices\\IHeadbannerTranslationService.cs",
+              "RelativeToolTip": "Oxu.Application\\IServices\\IHeadbannerTranslationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:11:29.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IHeadBannerService.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Application\\IServices\\IHeadBannerService.cs",
+              "RelativeDocumentMoniker": "Oxu.Application\\IServices\\IHeadBannerService.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Application\\IServices\\IHeadBannerService.cs",
+              "RelativeToolTip": "Oxu.Application\\IServices\\IHeadBannerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:29:04.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CreateHeadbannerTranslationValidator.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Application\\Validators\\HeadbannerTranslation\\CreateHeadbannerTranslationValidator.cs",
+              "RelativeDocumentMoniker": "Oxu.Application\\Validators\\HeadbannerTranslation\\CreateHeadbannerTranslationValidator.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Application\\Validators\\HeadbannerTranslation\\CreateHeadbannerTranslationValidator.cs",
+              "RelativeToolTip": "Oxu.Application\\Validators\\HeadbannerTranslation\\CreateHeadbannerTranslationValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:07:30.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateHeadBannerValidator.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Application\\Validators\\Headbanner\\CreateHeadBannerValidator.cs",
+              "RelativeDocumentMoniker": "Oxu.Application\\Validators\\Headbanner\\CreateHeadBannerValidator.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Application\\Validators\\Headbanner\\CreateHeadBannerValidator.cs",
+              "RelativeToolTip": "Oxu.Application\\Validators\\Headbanner\\CreateHeadBannerValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:25:54.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HeadBannerTranslationRepo.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\Repositories\\HeadBannerTranslationRepo.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Repositories\\HeadBannerTranslationRepo.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\Repositories\\HeadBannerTranslationRepo.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Repositories\\HeadBannerTranslationRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:57:29.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IHeadBannerTranslationRepo.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\IRepositories\\IHeadBannerTranslationRepo.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\IRepositories\\IHeadBannerTranslationRepo.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\IRepositories\\IHeadBannerTranslationRepo.cs",
+              "RelativeToolTip": "Oxu.Domain\\IRepositories\\IHeadBannerTranslationRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:56:52.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LanguageTypes.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\Enums\\LanguageTypes.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\Enums\\LanguageTypes.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\Enums\\LanguageTypes.cs",
+              "RelativeToolTip": "Oxu.Domain\\Enums\\LanguageTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:39:38.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Oxu.Domain.csproj",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\Oxu.Domain.csproj",
+              "RelativeDocumentMoniker": "Oxu.Domain\\Oxu.Domain.csproj",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\Oxu.Domain.csproj",
+              "RelativeToolTip": "Oxu.Domain\\Oxu.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-21T14:24:10.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PersistanceServiceRegistration.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\PersistanceServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\PersistanceServiceRegistration.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\PersistanceServiceRegistration.cs",
+              "RelativeToolTip": "Oxu.Persistance\\PersistanceServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T14:49:05.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "OxuDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\Context\\OxuDbContext.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Context\\OxuDbContext.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\Context\\OxuDbContext.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Context\\OxuDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T14:48:48.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ApiController.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Presentation\\Abstractions\\ApiController.cs",
+              "RelativeDocumentMoniker": "Oxu.Presentation\\Abstractions\\ApiController.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Presentation\\Abstractions\\ApiController.cs",
+              "RelativeToolTip": "Oxu.Presentation\\Abstractions\\ApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:50:37.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CreatedAtVO.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\ValueObjects\\CreatedAtVO.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\ValueObjects\\CreatedAtVO.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\ValueObjects\\CreatedAtVO.cs",
+              "RelativeToolTip": "Oxu.Domain\\ValueObjects\\CreatedAtVO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T14:26:37.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AssemblyReference.cs.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Presentation\\AssemblyReference.cs.cs",
+              "RelativeDocumentMoniker": "Oxu.Presentation\\AssemblyReference.cs.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Presentation\\AssemblyReference.cs.cs",
+              "RelativeToolTip": "Oxu.Presentation\\AssemblyReference.cs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:47:06.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.WebAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Oxu.WebAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.WebAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "Oxu.WebAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:55:09.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "BaseDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\Abstractions\\BaseDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\Abstractions\\BaseDto.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\Abstractions\\BaseDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\Abstractions\\BaseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:13:44.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\Abstractions\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\Abstractions\\BaseEntity.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\Abstractions\\BaseEntity.cs",
+              "RelativeToolTip": "Oxu.Domain\\Abstractions\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T14:25:50.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20250521150651_askd.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\Migrations\\20250521150651_askd.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Migrations\\20250521150651_askd.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\Migrations\\20250521150651_askd.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Migrations\\20250521150651_askd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:06:51.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "HeadBannerRepo.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\Repositories\\HeadBannerRepo.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Repositories\\HeadBannerRepo.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\Repositories\\HeadBannerRepo.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Repositories\\HeadBannerRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:02:25.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IHeadBannerRepo.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\IRepositories\\IHeadBannerRepo.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\IRepositories\\IHeadBannerRepo.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\IRepositories\\IHeadBannerRepo.cs",
+              "RelativeToolTip": "Oxu.Domain\\IRepositories\\IHeadBannerRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:02:10.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "QueryRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\Repositories\\Generics\\QueryRepository.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Repositories\\Generics\\QueryRepository.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\Repositories\\Generics\\QueryRepository.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Repositories\\Generics\\QueryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T14:59:01.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CommandRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Persistance\\Repositories\\Generics\\CommandRepository.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Repositories\\Generics\\CommandRepository.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Persistance\\Repositories\\Generics\\CommandRepository.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Repositories\\Generics\\CommandRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T14:57:20.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IQueryRepositories.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\IRepositories\\Generics\\IQueryRepositories.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\IRepositories\\Generics\\IQueryRepositories.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\IRepositories\\Generics\\IQueryRepositories.cs",
+              "RelativeToolTip": "Oxu.Domain\\IRepositories\\Generics\\IQueryRepositories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T14:44:07.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ICommandRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Oxu\\Oxu.Domain\\IRepositories\\Generics\\ICommandRepository.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\IRepositories\\Generics\\ICommandRepository.cs",
+              "ToolTip": "D:\\Projects\\Oxu\\Oxu.Domain\\IRepositories\\Generics\\ICommandRepository.cs",
+              "RelativeToolTip": "Oxu.Domain\\IRepositories\\Generics\\ICommandRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T14:43:55.124Z",
+              "EditorCaption": ""
             }
           ]
         },

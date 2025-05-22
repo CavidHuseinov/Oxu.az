@@ -6,7 +6,7 @@ using Oxu.Presentation.Abstractions;
 
 namespace Oxu.Presentation.Controllers
 {
-    public class HeadBannerTranslationController:ApiController
+    public sealed class HeadBannerTranslationController:ApiController
     {
         private readonly IHeadbannerTranslationService _service;
 

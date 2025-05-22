@@ -1,5 +1,26 @@
 [
   {
+    "ContainingType": "Oxu.WebAPI.ExternalController.FileUploadController",
+    "Method": "FileUploadAsync",
+    "RelativePath": "api/FileUpload/uploads",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "FolderName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Oxu.Presentation.Controllers.HeadbannerController",
     "Method": "GetByIdAsync",
     "RelativePath": "api/Headbanner/{id}",

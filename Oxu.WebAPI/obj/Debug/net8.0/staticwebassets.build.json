@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "dmlthsKdq/3apW1sd2VrLwMMzYvHIQsEba2vRIeWSQc=",
+  "Hash": "wRUmdLrR3r8OGXo6kZe7lOQJqaBn4O89JjiIPJghg7Y=",
   "Source": "Oxu.WebAPI",
   "BasePath": "_content/Oxu.WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Oxu.WebAPI\\wwwroot",
+      "Source": "Oxu.WebAPI",
+      "ContentRoot": "D:\\Projects\\Oxu\\Oxu.WebAPI\\wwwroot\\",
+      "BasePath": "_content/Oxu.WebAPI",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [],
   "Endpoints": []
 }

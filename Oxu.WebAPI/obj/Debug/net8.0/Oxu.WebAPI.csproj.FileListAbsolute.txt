@@ -161,3 +161,6 @@ D:\Projects\Oxu\Oxu.WebAPI\bin\Debug\net8.0\FluentValidation.DependencyInjection
 D:\Projects\Oxu\Oxu.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
 D:\Projects\Oxu\Oxu.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
 D:\Projects\Oxu\Oxu.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\Projects\Oxu\Oxu.WebAPI\bin\Debug\net8.0\Oxu.WebAPI.staticwebassets.runtime.json
+D:\Projects\Oxu\Oxu.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Projects\Oxu\Oxu.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Debug.dll
