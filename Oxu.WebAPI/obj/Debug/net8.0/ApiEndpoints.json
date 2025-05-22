@@ -135,5 +135,63 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.NewsController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/News/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.NewsController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/News/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.NewsController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/News/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Oxu.Domain.DTOs.News.CreateNewsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.NewsController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/News/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

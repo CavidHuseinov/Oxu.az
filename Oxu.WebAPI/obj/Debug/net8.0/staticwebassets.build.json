@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wRUmdLrR3r8OGXo6kZe7lOQJqaBn4O89JjiIPJghg7Y=",
+  "Hash": "yMrt2YdS6YsFzd+SbhZ8Lyup8+THwReEyBnshM32wFE=",
   "Source": "Oxu.WebAPI",
   "BasePath": "_content/Oxu.WebAPI",
   "Mode": "Default",
@@ -15,6 +15,111 @@
       "Pattern": "**"
     }
   ],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": [
+    {
+      "Identity": "D:\\Projects\\Oxu\\Oxu.WebAPI\\wwwroot\\Uploads\\ads\\94c3478a-dd0a-45d1-ad4c-f6765904357dfavicon (2)16.ico",
+      "SourceId": "Oxu.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Oxu\\Oxu.WebAPI\\wwwroot\\",
+      "BasePath": "_content/Oxu.WebAPI",
+      "RelativePath": "Uploads/ads/94c3478a-dd0a-45d1-ad4c-f6765904357dfavicon (2)16#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xaapv4kv8h",
+      "Integrity": "aQ9KTOfnpX1nQ8vhSFWnQRQuEJL+R4CJPeZc22WPD5E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\ads\\94c3478a-dd0a-45d1-ad4c-f6765904357dfavicon (2)16.ico"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Uploads/ads/94c3478a-dd0a-45d1-ad4c-f6765904357dfavicon (2)16.ico",
+      "AssetFile": "D:\\Projects\\Oxu\\Oxu.WebAPI\\wwwroot\\Uploads\\ads\\94c3478a-dd0a-45d1-ad4c-f6765904357dfavicon (2)16.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1150"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aQ9KTOfnpX1nQ8vhSFWnQRQuEJL+R4CJPeZc22WPD5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 18:46:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aQ9KTOfnpX1nQ8vhSFWnQRQuEJL+R4CJPeZc22WPD5E="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/ads/94c3478a-dd0a-45d1-ad4c-f6765904357dfavicon (2)16.xaapv4kv8h.ico",
+      "AssetFile": "D:\\Projects\\Oxu\\Oxu.WebAPI\\wwwroot\\Uploads\\ads\\94c3478a-dd0a-45d1-ad4c-f6765904357dfavicon (2)16.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1150"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aQ9KTOfnpX1nQ8vhSFWnQRQuEJL+R4CJPeZc22WPD5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 18:46:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xaapv4kv8h"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/ads/94c3478a-dd0a-45d1-ad4c-f6765904357dfavicon (2)16.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aQ9KTOfnpX1nQ8vhSFWnQRQuEJL+R4CJPeZc22WPD5E="
+        }
+      ]
+    }
+  ]
 }

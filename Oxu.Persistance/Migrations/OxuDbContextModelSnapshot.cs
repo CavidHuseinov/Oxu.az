@@ -60,6 +60,32 @@ namespace Oxu.Persistance.Migrations
                     b.ToTable("HeadBannerTranslations");
                 });
 
+            modelBuilder.Entity("Oxu.Domain.Entities.News", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsLike")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Url")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("News");
+                });
+
             modelBuilder.Entity("Oxu.Domain.Entities.HeadBanner", b =>
                 {
                     b.OwnsOne("Oxu.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
@@ -112,6 +138,29 @@ namespace Oxu.Persistance.Migrations
                         .IsRequired();
 
                     b.Navigation("HeadBanner");
+                });
+
+            modelBuilder.Entity("Oxu.Domain.Entities.News", b =>
+                {
+                    b.OwnsOne("Oxu.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<Guid>("NewsId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("NewsId");
+
+                            b1.ToTable("News");
+
+                            b1.WithOwner()
+                                .HasForeignKey("NewsId");
+                        });
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Oxu.Domain.Entities.HeadBanner", b =>

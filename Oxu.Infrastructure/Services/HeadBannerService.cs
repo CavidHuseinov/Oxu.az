@@ -41,7 +41,7 @@ namespace Oxu.Infrastructure.Services
         public async Task DeleteAsync(Guid id)
         {
             var dataId = await _query.GetByIdAsync(id);
-            if (dataId == null) throw new ArgumentNullException($"Headbanner Id'si tapilmadi.Id:{id}");
+            if (dataId == null) throw new ArgumentNullException(nameof(dataId), $"Headbanner Id'si tapilmadi.Id:{id}");
             await _command.DeleteAsync(dataId);
             await _save.SaveChangesAsync();
             _memory.Remove(CacheKey);
@@ -63,7 +63,7 @@ namespace Oxu.Infrastructure.Services
         public async Task<HeadBannerDto> GetByIdAsync(Guid id)
         {
             var dataId = await _query.GetByIdAsync(id);
-            if (dataId == null) throw new ArgumentNullException($"Headbanner Id'si tapilmadi.Id:{id}");
+            if (dataId == null) throw new ArgumentNullException(nameof(dataId), $"Headbanner Id'si tapilmadi.Id:{id}");
             return _mapper.Map<HeadBannerDto>(dataId);
         }
     }

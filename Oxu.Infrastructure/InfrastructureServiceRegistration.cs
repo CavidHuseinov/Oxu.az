@@ -16,6 +16,7 @@ namespace Oxu.Infrastructure
             services.AddScoped<IHeadBannerService, HeadBannerService>();
             services.AddScoped<IHeadbannerTranslationService, HeadBannerTranslationService>();
             services.AddScoped<IFileUploadService, FileUploadService>();
+            services.AddScoped<INewsService, NewsService>();
         }
     }
 }

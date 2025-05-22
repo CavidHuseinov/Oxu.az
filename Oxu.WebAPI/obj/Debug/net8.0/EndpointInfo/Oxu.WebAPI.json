@@ -222,6 +222,95 @@
           }
         }
       }
+    },
+    "/api/News/all": {
+      "get": {
+        "tags": [
+          "News"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/News/{id}": {
+      "get": {
+        "tags": [
+          "News"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/News/create": {
+      "post": {
+        "tags": [
+          "News"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateNewsDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateNewsDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateNewsDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/News/delete/{id}": {
+      "delete": {
+        "tags": [
+          "News"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -249,6 +338,27 @@
           "headBannerId": {
             "type": "string",
             "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateNewsDto": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "content": {
+            "type": "string",
+            "nullable": true
+          },
+          "isLike": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false

@@ -1,0 +1,22 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\ads\94c3478a-dd0a-45d1-ad4c-f6765904357dfavicon (2)16.ico'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Oxu.WebAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Oxu.WebAPI</BasePath>
+      <RelativePath>Uploads/ads/94c3478a-dd0a-45d1-ad4c-f6765904357dfavicon (2)16.ico</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xaapv4kv8h</Fingerprint>
+      <Integrity>aQ9KTOfnpX1nQ8vhSFWnQRQuEJL+R4CJPeZc22WPD5E=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\ads\94c3478a-dd0a-45d1-ad4c-f6765904357dfavicon (2)16.ico'))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>
