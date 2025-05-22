@@ -18,6 +18,12 @@ namespace Oxu.Presentation.Configurations
             });
 
             builder.Property(x=>x.Content).IsRequired();
+
+            builder.HasMany(x => x.HeadBannerTranslations)
+                .WithOne(x => x.HeadBanner)
+                .HasForeignKey(x => x.HeadBannerId)
+                .OnDelete(DeleteBehavior.Cascade);
+
         }
     }
 }

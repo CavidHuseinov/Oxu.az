@@ -1,1 +1,118 @@
-[]
+[
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.HeadbannerController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Headbanner/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.HeadbannerController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Headbanner/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.HeadbannerController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/Headbanner/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Oxu.Domain.DTOs.Headbanner.CreateHeadBannerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.HeadbannerController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Headbanner/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.HeadBannerTranslationController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/HeadBannerTranslation",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.HeadBannerTranslationController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/HeadBannerTranslation/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.HeadBannerTranslationController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/HeadBannerTranslation/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.HeadBannerTranslationController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/HeadBannerTranslation/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Oxu.Domain.DTOs.HeadbannerTranslation.CreateHeadbannerTranslationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -16,11 +16,11 @@ namespace Oxu.Infrastructure.Services
         private readonly IQueryRepository<HeadBanner> _query;
         private readonly IHeadBannerRepo _command;
         private readonly IUnitOfWork _save;
-        private readonly Mapper _mapper;
+        private readonly IMapper _mapper;
         private readonly IMemoryCache _memory;
-        private readonly string CacheKey = "headBannerCache";
+        private readonly string CacheKey = "HeadbannerAndHeadbannerTranslationCache";
 
-        public HeadBannerService(IMemoryCache memory, Mapper mapper, IUnitOfWork save, IHeadBannerRepo command, IQueryRepository<HeadBanner> query)
+        public HeadBannerService(IMemoryCache memory, IMapper mapper, IUnitOfWork save, IHeadBannerRepo command, IQueryRepository<HeadBanner> query)
         {
             _memory = memory;
             _mapper = mapper;
@@ -53,7 +53,10 @@ namespace Oxu.Infrastructure.Services
             {
                 return _mapper.Map<ICollection<HeadBannerDto>>(cachedDict);
             }
-            var allData = await _query.GetAllAsync().ToListAsync();
+            var allData = await _query.GetAllAsync(
+                include:x=>x.Include(x=>x.HeadBannerTranslations))
+                .ToListAsync();
+            _memory.Set(CacheKey, allData, TimeSpan.FromMinutes(30));
             return _mapper.Map<ICollection<HeadBannerDto>>(allData);
         }
 

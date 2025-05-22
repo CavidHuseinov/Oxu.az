@@ -31,6 +31,7 @@ namespace Oxu.Persistance
 
             #region Repositories
             services.AddScoped<IHeadBannerRepo, HeadBannerRepo>();
+            services.AddScoped<IHeadBannerTranslationRepo, HeadBannerTranslationRepo>();
             #endregion
 
             #region UnitOfWorks

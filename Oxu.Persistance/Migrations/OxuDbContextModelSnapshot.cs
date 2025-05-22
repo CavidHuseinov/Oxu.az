@@ -37,6 +37,29 @@ namespace Oxu.Persistance.Migrations
                     b.ToTable("HeadBanners");
                 });
 
+            modelBuilder.Entity("Oxu.Domain.Entities.HeadBannerTranslation", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("HeadBannerId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("LanguageType")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("HeadBannerId");
+
+                    b.ToTable("HeadBannerTranslations");
+                });
+
             modelBuilder.Entity("Oxu.Domain.Entities.HeadBanner", b =>
                 {
                     b.OwnsOne("Oxu.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
@@ -58,6 +81,42 @@ namespace Oxu.Persistance.Migrations
 
                     b.Navigation("CreatedAt")
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Oxu.Domain.Entities.HeadBannerTranslation", b =>
+                {
+                    b.HasOne("Oxu.Domain.Entities.HeadBanner", "HeadBanner")
+                        .WithMany("HeadBannerTranslations")
+                        .HasForeignKey("HeadBannerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.OwnsOne("Oxu.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<Guid>("HeadBannerTranslationId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("HeadBannerTranslationId");
+
+                            b1.ToTable("HeadBannerTranslations");
+
+                            b1.WithOwner()
+                                .HasForeignKey("HeadBannerTranslationId");
+                        });
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
+
+                    b.Navigation("HeadBanner");
+                });
+
+            modelBuilder.Entity("Oxu.Domain.Entities.HeadBanner", b =>
+                {
+                    b.Navigation("HeadBannerTranslations");
                 });
 #pragma warning restore 612, 618
         }

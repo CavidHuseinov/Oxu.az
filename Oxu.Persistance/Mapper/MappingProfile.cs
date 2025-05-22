@@ -1,6 +1,7 @@
 ﻿
 using AutoMapper;
 using Oxu.Domain.DTOs.Headbanner;
+using Oxu.Domain.DTOs.HeadbannerTranslation;
 using Oxu.Domain.Entities;
 
 namespace Oxu.Persistance.Mapper
@@ -12,6 +13,11 @@ namespace Oxu.Persistance.Mapper
             #region Headbanner
             CreateMap<CreateHeadBannerDto,HeadBanner>().ReverseMap();
             CreateMap<HeadBannerDto, HeadBanner>().ReverseMap();
+            #endregion
+
+            #region HeadbannerTranslation
+            CreateMap<CreateHeadbannerTranslationDto, HeadBannerTranslation>().ReverseMap();
+            CreateMap<HeadbannerTranslationDto, HeadBannerTranslation>().ReverseMap();
             #endregion
         }
     }

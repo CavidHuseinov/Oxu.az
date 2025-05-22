@@ -154,3 +154,10 @@ D:\Projects\Oxu\Oxu.WebAPI\obj\Debug\net8.0\refint\Oxu.WebAPI.dll
 D:\Projects\Oxu\Oxu.WebAPI\obj\Debug\net8.0\Oxu.WebAPI.pdb
 D:\Projects\Oxu\Oxu.WebAPI\obj\Debug\net8.0\Oxu.WebAPI.genruntimeconfig.cache
 D:\Projects\Oxu\Oxu.WebAPI\obj\Debug\net8.0\ref\Oxu.WebAPI.dll
+D:\Projects\Oxu\Oxu.WebAPI\obj\Debug\net8.0\Oxu.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects\Oxu\Oxu.WebAPI\bin\Debug\net8.0\AutoMapper.dll
+D:\Projects\Oxu\Oxu.WebAPI\bin\Debug\net8.0\FluentValidation.dll
+D:\Projects\Oxu\Oxu.WebAPI\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Projects\Oxu\Oxu.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\Projects\Oxu\Oxu.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Projects\Oxu\Oxu.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll

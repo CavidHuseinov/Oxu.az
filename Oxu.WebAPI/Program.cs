@@ -1,5 +1,6 @@
 
 using Microsoft.AspNetCore.Mvc.ApplicationParts;
+using Oxu.Infrastructure;
 using Oxu.Persistance;
 using Oxu.Presentation;
 
@@ -16,6 +17,8 @@ namespace Oxu.WebAPI
             builder.Services.AddSwaggerGen();
             PersistanceServiceRegistration.AddPersistance(builder.Services, builder.Configuration);
             PersistanceServiceRegistration.AddDIRepositories(builder.Services);
+            InfrastructureServiceRegistration.AddInfrastructure(builder.Services);
+            InfrastructureServiceRegistration.AddDIServices(builder.Services);
 
             var app = builder.Build();
             app.UseSwagger();

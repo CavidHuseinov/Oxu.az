@@ -11,7 +11,7 @@ namespace Oxu.Presentation.Context
         {
         }
         public DbSet<HeadBanner> HeadBanners { get; set; }
-
+        public DbSet<HeadBannerTranslation> HeadBannerTranslations { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

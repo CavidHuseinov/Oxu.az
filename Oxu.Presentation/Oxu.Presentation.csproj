@@ -15,8 +15,4 @@
     <ProjectReference Include="..\Oxu.Infrastructure\Oxu.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>
