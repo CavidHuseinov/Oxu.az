@@ -9,5 +9,7 @@ namespace Oxu.Domain.Entities
         public string Title { get; set; } = default!;
         public string Content { get; set; } = default!;
         public bool IsLike { get; set; }
+        public string PrimaryLanguage { get; } = "AZ";
+        public ICollection<NewsTranslation>? NewsTranslations { get; set; }
     }
 }

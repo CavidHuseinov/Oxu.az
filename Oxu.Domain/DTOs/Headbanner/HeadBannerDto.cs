@@ -6,9 +6,9 @@ namespace Oxu.Domain.DTOs.Headbanner
 {
     public record HeadBannerDto:BaseDto
     {
-        public string Content { get; set; } = default!;
-        public string PrimaryLanguage { get; set; } = default!;
-        public ICollection<HeadbannerTranslationDto>? HeadBannerTranslations { get; set; }
+        public string Content { get; init; } = default!;
+        public string PrimaryLanguage { get; init; } = default!;
+        public ICollection<HeadbannerTranslationDto>? HexadBannerTranslations { get; init; }
 
     }
 }

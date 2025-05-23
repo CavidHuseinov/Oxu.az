@@ -50,7 +50,7 @@ namespace Oxu.Infrastructure.Services
 
         public async Task<ICollection<HeadbannerTranslationDto>> GetAllAsync()
         {
-            if (_memory.TryGetValue(CacheKey, out ICollection<HeadBannerTranslation>? cachedDict))
+            if (_memory.TryGetValue(CacheKey, out var cachedDict))
                 return _mapper.Map < ICollection<HeadbannerTranslationDto>>(cachedDict);
             var dataAll = await _query.GetAllAsync().ToListAsync();
             _memory.Set(CacheKey, dataAll, TimeSpan.FromMinutes(30));

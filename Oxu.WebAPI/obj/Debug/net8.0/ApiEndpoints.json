@@ -8,14 +8,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "File",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
-      },
-      {
-        "Name": "FolderName",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "dto",
+        "Type": "Oxu.Domain.DTOs.FileUpload.FileUploadDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -182,6 +177,64 @@
     "ContainingType": "Oxu.Presentation.Controllers.NewsController",
     "Method": "DeleteAsync",
     "RelativePath": "api/News/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.NewsTranslationController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/NewsTranslation/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.NewsTranslationController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/NewsTranslation/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.NewsTranslationController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/NewsTranslation/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Oxu.Domain.DTOs.NewsTranslation.CreateNewsTranslationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.NewsTranslationController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/NewsTranslation/delete/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

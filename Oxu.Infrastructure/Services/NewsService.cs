@@ -20,7 +20,7 @@ namespace Oxu.Infrastructure.Services
         private readonly IMapper _mapper;
         private readonly IUnitOfWork _save;
         private readonly IMemoryCache _memory;
-        private readonly string cacheKey = "NewsCacheKey";
+        private readonly string cacheKey = "NewsAndNewsTranslationCacheKey";
 
         public NewsService(IMemoryCache memoryCache, IUnitOfWork save, IMapper mapper, IQueryRepository<News> query, INewsRepo command)
         {
@@ -52,9 +52,9 @@ namespace Oxu.Infrastructure.Services
 
         public async Task<ICollection<NewsDto>> GetAllAsync()
         {
-            if(_memory.TryGetValue(cacheKey,out ICollection<News>? cachedDict))
+            if(_memory.TryGetValue(cacheKey,out var cachedDict))
                 return _mapper.Map<ICollection<NewsDto>>(cachedDict);
-            var data = await _query.GetAllAsync().ToListAsync();
+            var data = await _query.GetAllAsync(include:q=>q.Include(x=>x.NewsTranslations)).ToListAsync();
             _memory.Set(cacheKey, data, TimeSpan.FromMinutes(30));
             return _mapper.Map<ICollection<NewsDto>>(data);
         }

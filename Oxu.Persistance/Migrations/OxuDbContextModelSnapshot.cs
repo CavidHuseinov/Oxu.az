@@ -86,6 +86,33 @@ namespace Oxu.Persistance.Migrations
                     b.ToTable("News");
                 });
 
+            modelBuilder.Entity("Oxu.Domain.Entities.NewsTranslation", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("LanguageType")
+                        .HasColumnType("int");
+
+                    b.Property<Guid>("NewsId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NewsId");
+
+                    b.ToTable("NewsTranslations");
+                });
+
             modelBuilder.Entity("Oxu.Domain.Entities.HeadBanner", b =>
                 {
                     b.OwnsOne("Oxu.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
@@ -163,9 +190,45 @@ namespace Oxu.Persistance.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Oxu.Domain.Entities.NewsTranslation", b =>
+                {
+                    b.HasOne("Oxu.Domain.Entities.News", "News")
+                        .WithMany("NewsTranslations")
+                        .HasForeignKey("NewsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.OwnsOne("Oxu.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<Guid>("NewsTranslationId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("NewsTranslationId");
+
+                            b1.ToTable("NewsTranslations");
+
+                            b1.WithOwner()
+                                .HasForeignKey("NewsTranslationId");
+                        });
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
+
+                    b.Navigation("News");
+                });
+
             modelBuilder.Entity("Oxu.Domain.Entities.HeadBanner", b =>
                 {
                     b.Navigation("HeadBannerTranslations");
+                });
+
+            modelBuilder.Entity("Oxu.Domain.Entities.News", b =>
+                {
+                    b.Navigation("NewsTranslations");
                 });
 #pragma warning restore 612, 618
         }

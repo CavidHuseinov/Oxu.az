@@ -49,7 +49,7 @@ namespace Oxu.Infrastructure.Services
 
         public async Task<ICollection<HeadBannerDto>> GetAllAsync()
         {
-            if(_memory.TryGetValue(CacheKey, out ICollection<HeadBanner>? cachedDict))
+            if(_memory.TryGetValue(CacheKey, out var cachedDict))
             {
                 return _mapper.Map<ICollection<HeadBannerDto>>(cachedDict);
             }
