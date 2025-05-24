@@ -47,6 +47,7 @@ namespace Oxu.Persistance.Repositories.Generics
             int pageIndex = 1,
             int pageSize = 10)
         {
+
             var query = GetAllAsync(predicate, include, orderBy, enableTracking);
             return query.Skip((pageIndex - 1) * pageSize)
                         .Take(pageSize);

@@ -70,8 +70,11 @@ namespace Oxu.Persistance.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("IsLike")
-                        .HasColumnType("bit");
+                    b.Property<int>("DislikeCount")
+                        .HasColumnType("int");
+
+                    b.Property<int>("LikeCount")
+                        .HasColumnType("int");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -111,6 +114,31 @@ namespace Oxu.Persistance.Migrations
                     b.HasIndex("NewsId");
 
                     b.ToTable("NewsTranslations");
+                });
+
+            modelBuilder.Entity("Oxu.Domain.Entities.Reactions", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("IpAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsLike")
+                        .HasColumnType("bit");
+
+                    b.Property<Guid>("NewsId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("UserAgent")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NewsId");
+
+                    b.ToTable("Reactions");
                 });
 
             modelBuilder.Entity("Oxu.Domain.Entities.HeadBanner", b =>
@@ -221,6 +249,37 @@ namespace Oxu.Persistance.Migrations
                     b.Navigation("News");
                 });
 
+            modelBuilder.Entity("Oxu.Domain.Entities.Reactions", b =>
+                {
+                    b.HasOne("Oxu.Domain.Entities.News", "News")
+                        .WithMany("Reactions")
+                        .HasForeignKey("NewsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.OwnsOne("Oxu.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<Guid>("ReactionsId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("ReactionsId");
+
+                            b1.ToTable("Reactions");
+
+                            b1.WithOwner()
+                                .HasForeignKey("ReactionsId");
+                        });
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
+
+                    b.Navigation("News");
+                });
+
             modelBuilder.Entity("Oxu.Domain.Entities.HeadBanner", b =>
                 {
                     b.Navigation("HeadBannerTranslations");
@@ -229,6 +288,8 @@ namespace Oxu.Persistance.Migrations
             modelBuilder.Entity("Oxu.Domain.Entities.News", b =>
                 {
                     b.Navigation("NewsTranslations");
+
+                    b.Navigation("Reactions");
                 });
 #pragma warning restore 612, 618
         }

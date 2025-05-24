@@ -1,5 +1,7 @@
 ﻿
+using Oxu.Domain.DTOs.Reactions;
+
 namespace Oxu.Domain.DTOs.News
 {
-    public record CreateNewsDto(string Url, string Title, string Content, bool IsLike);
+    public record CreateNewsDto(string Url, string Title, string Content);
 }

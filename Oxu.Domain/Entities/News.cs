@@ -8,7 +8,9 @@ namespace Oxu.Domain.Entities
         public string Url { get; set; } = default!;
         public string Title { get; set; } = default!;
         public string Content { get; set; } = default!;
-        public bool IsLike { get; set; }
+        public ICollection<Reactions>? Reactions { get; set; }
+        public int LikeCount { get; set; }
+        public int DislikeCount { get; set; }
         public string PrimaryLanguage { get; } = "AZ";
         public ICollection<NewsTranslation>? NewsTranslations { get; set; }
     }

@@ -17,18 +17,20 @@ namespace Oxu.Infrastructure.Services
     {
         private readonly INewsRepo _command;
         private readonly IQueryRepository<News> _query;
+        private readonly IQueryRepository<Reactions> _queryReactions;
         private readonly IMapper _mapper;
         private readonly IUnitOfWork _save;
         private readonly IMemoryCache _memory;
         private readonly string cacheKey = "NewsAndNewsTranslationCacheKey";
 
-        public NewsService(IMemoryCache memoryCache, IUnitOfWork save, IMapper mapper, IQueryRepository<News> query, INewsRepo command)
+        public NewsService(IMemoryCache memoryCache, IUnitOfWork save, IMapper mapper, IQueryRepository<News> query, INewsRepo command, IQueryRepository<Reactions> queryReactions)
         {
             _memory = memoryCache;
             _save = save;
             _mapper = mapper;
             _query = query;
             _command = command;
+            _queryReactions = queryReactions;
         }
 
         public async Task<NewsDto> CreateAsync(CreateNewsDto dto)
@@ -54,7 +56,7 @@ namespace Oxu.Infrastructure.Services
         {
             if(_memory.TryGetValue(cacheKey,out var cachedDict))
                 return _mapper.Map<ICollection<NewsDto>>(cachedDict);
-            var data = await _query.GetAllAsync(include:q=>q.Include(x=>x.NewsTranslations)).ToListAsync();
+            var data = await _query.GetAllAsync(include:q=>q.Include(x=>x.NewsTranslations).Include(x=>x.Reactions)).ToListAsync();
             _memory.Set(cacheKey, data, TimeSpan.FromMinutes(30));
             return _mapper.Map<ICollection<NewsDto>>(data);
         }
@@ -64,7 +66,13 @@ namespace Oxu.Infrastructure.Services
             var dataId = await _query.GetByIdAsync(id);
             if (dataId == null)
                 throw new ArgumentNullException(nameof(dataId), $"Silmek mumkun olmadi xeberi .Id:{id}");
-            return _mapper.Map<NewsDto>(dataId);
+            var reactions = await _queryReactions.GetAllAsync(x=>x.NewsId == id, enableTracking:false).ToListAsync();
+            var likeCount = reactions.Count(x=>x.IsLike);
+            var dislikeCount = reactions.Count(x => !x.IsLike);
+
+            var dto = _mapper.Map<NewsDto>(dataId);
+            dto = dto with { LikeCount = likeCount, DislikeCount = dislikeCount };
+            return dto;
         }
     }
 }

@@ -246,5 +246,37 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.ReactionController",
+    "Method": "GetReactionsByNews",
+    "RelativePath": "api/Reaction/{newsId}/reactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newsId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.ReactionController",
+    "Method": "AddReactions",
+    "RelativePath": "api/Reaction/add-reactions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Oxu.Domain.DTOs.Reactions.CreateReactionsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

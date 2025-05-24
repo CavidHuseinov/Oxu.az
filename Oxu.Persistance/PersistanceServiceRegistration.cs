@@ -34,6 +34,7 @@ namespace Oxu.Persistance
             services.AddScoped<IHeadBannerTranslationRepo, HeadBannerTranslationRepo>();
             services.AddScoped<INewsRepo, NewsRepo>();
             services.AddScoped<INewsTranslationRepo, NewsTranslationRepo>();
+            services.AddScoped<IReactionsRepo,ReactionRepo>();
             #endregion
 
             #region UnitOfWorks

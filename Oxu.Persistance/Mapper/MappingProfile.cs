@@ -4,6 +4,7 @@ using Oxu.Domain.DTOs.Headbanner;
 using Oxu.Domain.DTOs.HeadbannerTranslation;
 using Oxu.Domain.DTOs.News;
 using Oxu.Domain.DTOs.NewsTranslation;
+using Oxu.Domain.DTOs.Reactions;
 using Oxu.Domain.Entities;
 
 namespace Oxu.Persistance.Mapper
@@ -30,6 +31,11 @@ namespace Oxu.Persistance.Mapper
             #region NewsTranslation
             CreateMap<NewsTranslation, CreateNewsTranslationDto>().ReverseMap();
             CreateMap<NewsTranslation, NewsTranslationDto>().ReverseMap();
+            #endregion
+
+            #region Reactions
+            CreateMap<CreateReactionsDto, Reactions>().ReverseMap();
+            CreateMap<ReactionsDto,Reactions>().ReverseMap();
             #endregion
         }
     }

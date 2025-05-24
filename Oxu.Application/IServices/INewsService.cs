@@ -1,5 +1,6 @@
 ﻿
 using Oxu.Domain.DTOs.News;
+using Oxu.Domain.DTOs.Reactions;
 
 namespace Oxu.Application.IServices
 {
