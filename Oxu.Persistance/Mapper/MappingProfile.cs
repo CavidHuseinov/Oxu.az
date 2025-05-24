@@ -1,5 +1,6 @@
 ﻿
 using AutoMapper;
+using Oxu.Domain.DTOs.Category;
 using Oxu.Domain.DTOs.Headbanner;
 using Oxu.Domain.DTOs.HeadbannerTranslation;
 using Oxu.Domain.DTOs.News;
@@ -36,6 +37,11 @@ namespace Oxu.Persistance.Mapper
             #region Reactions
             CreateMap<CreateReactionsDto, Reactions>().ReverseMap();
             CreateMap<ReactionsDto,Reactions>().ReverseMap();
+            #endregion
+
+            #region Category
+            CreateMap<Category,CreateCategoryDto>().ReverseMap();
+            CreateMap<Category,CategoryDto>().ReverseMap();
             #endregion
         }
     }

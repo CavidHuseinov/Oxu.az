@@ -13,5 +13,7 @@ namespace Oxu.Domain.Entities
         public int DislikeCount { get; set; }
         public string PrimaryLanguage { get; } = "AZ";
         public ICollection<NewsTranslation>? NewsTranslations { get; set; }
+        public Category? Category { get; set; }
+        public Guid CategoryId { get; set; }
     }
 }

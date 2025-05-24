@@ -17,6 +17,11 @@ namespace Oxu.Persistance.Configurations
             });
             builder.Property(x => x.Content).IsRequired();
             builder.Property(x=>x.Title).IsRequired();
+
+            builder.HasOne(x => x.Category)
+                .WithMany(x => x.News)
+                .HasForeignKey(x => x.CategoryId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

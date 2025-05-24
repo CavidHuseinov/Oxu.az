@@ -15,6 +15,7 @@ namespace Oxu.Presentation.Context
         public DbSet<News> News { get; set; }
         public DbSet<NewsTranslation> NewsTranslations { get; set; }
         public DbSet<Reactions> Reactions { get; set; }
+        public DbSet<Category> Categories { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
