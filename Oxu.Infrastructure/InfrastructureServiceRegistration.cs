@@ -20,6 +20,7 @@ namespace Oxu.Infrastructure
             services.AddScoped<INewsTranslationService, NewsTranslationService>();
             services.AddScoped<IReactionService, ReactionService>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<ICategoryTranslationService, CategoryTranslationService>();
         }
     }
 }

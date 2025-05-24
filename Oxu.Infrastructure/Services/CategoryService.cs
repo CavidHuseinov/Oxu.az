@@ -18,7 +18,7 @@ namespace Oxu.Infrastructure.Services
         private readonly IQueryRepository<Category> _query;
         private readonly IUnitOfWork _save;
         private readonly IMemoryCache _memory;
-        private readonly string CacheKey = "NewsAndNewsTranslationAndCategoryCacheKey";
+        private readonly string CacheKey = "NewsAndCategoryCacheKey";
         public CategoryService(IMapper mapper, ICategoryRepo command, IQueryRepository<Category> query, IUnitOfWork save, IMemoryCache memory)
         {
             _mapper = mapper;
@@ -51,7 +51,8 @@ namespace Oxu.Infrastructure.Services
         {
             if (_memory.TryGetValue(CacheKey, out var cachedDict))
                 return _mapper.Map<ICollection<CategoryDto>>(cachedDict);
-            var allData = await _query.GetAllAsync().ToListAsync();
+            var allData = await _query.GetAllAsync(include:q=>q.
+            Include(x=>x.CategoryTranslations)).ToListAsync();
             _memory.Set(CacheKey, allData, TimeSpan.FromMinutes(30));
             return _mapper.Map<ICollection<CategoryDto>>(allData);
         }

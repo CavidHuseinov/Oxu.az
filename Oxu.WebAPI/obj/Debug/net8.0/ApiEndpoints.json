@@ -58,6 +58,64 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Oxu.Presentation.Controllers.CategoryTranslationController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/CategoryTranslation/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.CategoryTranslationController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/CategoryTranslation/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.CategoryTranslationController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/CategoryTranslation/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Oxu.Domain.DTOs.CategoryTranslation.CreateCategoryTranslationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.CategoryTranslationController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/CategoryTranslation/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Oxu.WebAPI.ExternalController.FileUploadController",
     "Method": "FileUploadAsync",
     "RelativePath": "api/FileUpload/uploads",

@@ -21,7 +21,7 @@ namespace Oxu.Infrastructure.Services
         private readonly IMapper _mapper;
         private readonly IUnitOfWork _save;
         private readonly IMemoryCache _memory;
-        private readonly string cacheKey = "NewsAndNewsTranslationAndCategoryCacheKey";
+        private readonly string cacheKey = "NewsAndCategoryCacheKey";
 
         public NewsService(IMemoryCache memoryCache, IUnitOfWork save, IMapper mapper, IQueryRepository<News> query, INewsRepo command, IQueryRepository<Reactions> queryReactions)
         {
