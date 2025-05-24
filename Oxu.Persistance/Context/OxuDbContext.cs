@@ -17,6 +17,7 @@ namespace Oxu.Presentation.Context
         public DbSet<Reactions> Reactions { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<CategoryTranslation> CategoriesTranslations { get; set; }
+        public DbSet<Tag> Tags { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

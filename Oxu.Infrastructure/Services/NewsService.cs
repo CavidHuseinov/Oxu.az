@@ -21,7 +21,7 @@ namespace Oxu.Infrastructure.Services
         private readonly IMapper _mapper;
         private readonly IUnitOfWork _save;
         private readonly IMemoryCache _memory;
-        private readonly string cacheKey = "NewsAndCategoryCacheKey";
+        private readonly string cacheKey = "NewsAndCategoryAndTagCacheKey";
 
         public NewsService(IMemoryCache memoryCache, IUnitOfWork save, IMapper mapper, IQueryRepository<News> query, INewsRepo command, IQueryRepository<Reactions> queryReactions)
         {
@@ -36,6 +36,18 @@ namespace Oxu.Infrastructure.Services
         public async Task<NewsDto> CreateAsync(CreateNewsDto dto)
         {
            var data = _mapper.Map<News>(dto);
+            if(dto.TagIds != null && dto.TagIds.Any())
+            {
+                data.NewsAndTags = new List<NewsAndTag>();
+                foreach (var tagId in dto.TagIds)
+                {
+                    data.NewsAndTags.Add(new NewsAndTag()
+                    {
+                        TagId = tagId,
+                        NewsId = data.Id
+                    });
+                }
+            }
            var newData =await _command.CreateAsync(data);
            await _save.SaveChangesAsync();
            _memory.Set(cacheKey, newData, TimeSpan.FromMinutes(30));
@@ -59,7 +71,8 @@ namespace Oxu.Infrastructure.Services
             var data = await _query.GetAllAsync(include:q=>q
             .Include(x=>x.NewsTranslations)
             .Include(x=>x.Reactions)
-            .Include(x=>x.Category)).ToListAsync();
+            .Include(x=>x.Category))
+            .Include(x=>x.NewsAndTags).ThenInclude(x=>x.Tag).ToListAsync();
             _memory.Set(cacheKey, data, TimeSpan.FromMinutes(30));
             return _mapper.Map<ICollection<NewsDto>>(data);
         }

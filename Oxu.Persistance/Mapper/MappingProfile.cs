@@ -5,8 +5,10 @@ using Oxu.Domain.DTOs.CategoryTranslation;
 using Oxu.Domain.DTOs.Headbanner;
 using Oxu.Domain.DTOs.HeadbannerTranslation;
 using Oxu.Domain.DTOs.News;
+using Oxu.Domain.DTOs.NewsAndTag;
 using Oxu.Domain.DTOs.NewsTranslation;
 using Oxu.Domain.DTOs.Reactions;
+using Oxu.Domain.DTOs.Tag;
 using Oxu.Domain.Entities;
 
 namespace Oxu.Persistance.Mapper
@@ -16,7 +18,7 @@ namespace Oxu.Persistance.Mapper
         public MappingProfile()
         {
             #region Headbanner
-            CreateMap<CreateHeadBannerDto,HeadBanner>().ReverseMap();
+            CreateMap<CreateHeadBannerDto, HeadBanner>().ReverseMap();
             CreateMap<HeadBannerDto, HeadBanner>().ReverseMap();
             #endregion
 
@@ -26,8 +28,8 @@ namespace Oxu.Persistance.Mapper
             #endregion
 
             #region News 
-            CreateMap<CreateNewsDto,News>().ReverseMap();
-            CreateMap<NewsDto,News>().ReverseMap();
+            CreateMap<CreateNewsDto, News>().ReverseMap();
+            CreateMap<NewsDto, News>().ReverseMap();
             #endregion
 
             #region NewsTranslation
@@ -37,17 +39,27 @@ namespace Oxu.Persistance.Mapper
 
             #region Reactions
             CreateMap<CreateReactionsDto, Reactions>().ReverseMap();
-            CreateMap<ReactionsDto,Reactions>().ReverseMap();
+            CreateMap<ReactionsDto, Reactions>().ReverseMap();
             #endregion
 
             #region Category
-            CreateMap<Category,CreateCategoryDto>().ReverseMap();
-            CreateMap<Category,CategoryDto>().ReverseMap();
+            CreateMap<Category, CreateCategoryDto>().ReverseMap();
+            CreateMap<Category, CategoryDto>().ReverseMap();
             #endregion
 
             #region CategoryTranslation
-            CreateMap<CategoryTranslation,CategoryTranslationDto>().ReverseMap();
-            CreateMap<CategoryTranslation,CreateCategoryTranslationDto>().ReverseMap();
+            CreateMap<CategoryTranslation, CategoryTranslationDto>().ReverseMap();
+            CreateMap<CategoryTranslation, CreateCategoryTranslationDto>().ReverseMap();
+            #endregion
+
+            #region Tag
+            CreateMap<CreateTagDto, Tag>().ReverseMap();
+            CreateMap<TagDto, Tag>().ReverseMap();
+            #endregion
+
+            #region NewsAndTag
+            CreateMap<NewsAndTag,CreateNewsAndTagDto>().ReverseMap();
+            CreateMap<NewsAndTag, NewsAndTagDto>().ReverseMap();
             #endregion
         }
     }

@@ -15,5 +15,6 @@ namespace Oxu.Domain.Entities
         public ICollection<NewsTranslation>? NewsTranslations { get; set; }
         public Category? Category { get; set; }
         public Guid CategoryId { get; set; }
+        public ICollection<NewsAndTag>? NewsAndTags { get; set; }
     }
 }

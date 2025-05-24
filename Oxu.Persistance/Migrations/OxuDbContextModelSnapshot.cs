@@ -136,6 +136,31 @@ namespace Oxu.Persistance.Migrations
                     b.ToTable("News");
                 });
 
+            modelBuilder.Entity("Oxu.Domain.Entities.NewsAndTag", b =>
+                {
+                    b.Property<Guid>("NewsId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("TagId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("NewsId1")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("TagId1")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("NewsId", "TagId");
+
+                    b.HasIndex("NewsId1");
+
+                    b.HasIndex("TagId");
+
+                    b.HasIndex("TagId1");
+
+                    b.ToTable("NewsAndTag");
+                });
+
             modelBuilder.Entity("Oxu.Domain.Entities.NewsTranslation", b =>
                 {
                     b.Property<Guid>("Id")
@@ -186,6 +211,25 @@ namespace Oxu.Persistance.Migrations
                     b.HasIndex("NewsId");
 
                     b.ToTable("Reactions");
+                });
+
+            modelBuilder.Entity("Oxu.Domain.Entities.Tag", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PrimaryLanguage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tags");
                 });
 
             modelBuilder.Entity("Oxu.Domain.Entities.Category", b =>
@@ -327,6 +371,33 @@ namespace Oxu.Persistance.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Oxu.Domain.Entities.NewsAndTag", b =>
+                {
+                    b.HasOne("Oxu.Domain.Entities.News", "News")
+                        .WithMany()
+                        .HasForeignKey("NewsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Oxu.Domain.Entities.News", null)
+                        .WithMany("NewsAndTags")
+                        .HasForeignKey("NewsId1");
+
+                    b.HasOne("Oxu.Domain.Entities.Tag", "Tag")
+                        .WithMany()
+                        .HasForeignKey("TagId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Oxu.Domain.Entities.Tag", null)
+                        .WithMany("NewsAndTags")
+                        .HasForeignKey("TagId1");
+
+                    b.Navigation("News");
+
+                    b.Navigation("Tag");
+                });
+
             modelBuilder.Entity("Oxu.Domain.Entities.NewsTranslation", b =>
                 {
                     b.HasOne("Oxu.Domain.Entities.News", "News")
@@ -389,6 +460,29 @@ namespace Oxu.Persistance.Migrations
                     b.Navigation("News");
                 });
 
+            modelBuilder.Entity("Oxu.Domain.Entities.Tag", b =>
+                {
+                    b.OwnsOne("Oxu.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<Guid>("TagId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("TagId");
+
+                            b1.ToTable("Tags");
+
+                            b1.WithOwner()
+                                .HasForeignKey("TagId");
+                        });
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Oxu.Domain.Entities.Category", b =>
                 {
                     b.Navigation("CategoryTranslations");
@@ -403,9 +497,16 @@ namespace Oxu.Persistance.Migrations
 
             modelBuilder.Entity("Oxu.Domain.Entities.News", b =>
                 {
+                    b.Navigation("NewsAndTags");
+
                     b.Navigation("NewsTranslations");
 
                     b.Navigation("Reactions");
+                });
+
+            modelBuilder.Entity("Oxu.Domain.Entities.Tag", b =>
+                {
+                    b.Navigation("NewsAndTags");
                 });
 #pragma warning restore 612, 618
         }

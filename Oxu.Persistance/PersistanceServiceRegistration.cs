@@ -37,6 +37,7 @@ namespace Oxu.Persistance
             services.AddScoped<IReactionsRepo,ReactionRepo>();
             services.AddScoped<ICategoryRepo, CategoryRepo>();
             services.AddScoped<ICategoryTranslationRepo, CategoryTranslationRepo>();
+            services.AddScoped<ITagRepo, TagRepo>();
             #endregion
 
             #region UnitOfWorks
