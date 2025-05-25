@@ -18,7 +18,7 @@ namespace Oxu.Infrastructure.Services
         private readonly IUnitOfWork _save;
         private readonly IQueryRepository<Tag> _query;
         private readonly IMemoryCache _memory;
-        private readonly string CacheKey = "NewsAndCategoryAndTagCacheKey";
+        private readonly string CacheKey = "AndCacheKey";
         public TagService(IQueryRepository<Tag> query, IUnitOfWork save, ITagRepo command, IMapper mapper, IMemoryCache memory)
         {
             _query = query;
@@ -51,7 +51,8 @@ namespace Oxu.Infrastructure.Services
         {
             if (_memory.TryGetValue(CacheKey, out var result))
                 return _mapper.Map<ICollection<TagDto>>(result);
-            var allData = await _query.GetAllAsync().ToListAsync();
+            var allData = await _query.GetAllAsync(include:q=>q.
+            Include(x=>x.Tags)).ToListAsync();
             _memory.Set(CacheKey, allData, TimeSpan.FromMinutes(30));
             return _mapper.Map<ICollection<TagDto>>(allData);
         }

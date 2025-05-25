@@ -452,5 +452,63 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.TagTranslationController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/TagTranslation/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.TagTranslationController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/TagTranslation/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.TagTranslationController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/TagTranslation/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Oxu.Domain.DTOs.TagTranslation.CreateTagTranslationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oxu.Presentation.Controllers.TagTranslationController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/TagTranslation/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

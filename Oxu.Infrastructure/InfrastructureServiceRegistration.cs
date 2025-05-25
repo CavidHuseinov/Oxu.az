@@ -22,6 +22,7 @@ namespace Oxu.Infrastructure
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<ICategoryTranslationService, CategoryTranslationService>();
             services.AddScoped<ITagService, TagService>();
+            services.AddScoped<ITagTranslationService, TagTranslationService>();
         }
     }
 }

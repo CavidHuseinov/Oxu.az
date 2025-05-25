@@ -18,7 +18,7 @@ namespace Oxu.Infrastructure.Services
         private readonly IQueryRepository<Category> _query;
         private readonly IUnitOfWork _save;
         private readonly IMemoryCache _memory;
-        private readonly string CacheKey = "NewsAndCategoryAndTagCacheKey";
+        private readonly string CacheKey = "AndCacheKey";
         public CategoryService(IMapper mapper, ICategoryRepo command, IQueryRepository<Category> query, IUnitOfWork save, IMemoryCache memory)
         {
             _mapper = mapper;

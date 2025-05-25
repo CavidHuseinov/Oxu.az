@@ -232,6 +232,29 @@ namespace Oxu.Persistance.Migrations
                     b.ToTable("Tags");
                 });
 
+            modelBuilder.Entity("Oxu.Domain.Entities.TagTranslation", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("LanguageType")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("TagId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TagId");
+
+                    b.ToTable("TagsTranslations");
+                });
+
             modelBuilder.Entity("Oxu.Domain.Entities.Category", b =>
                 {
                     b.OwnsOne("Oxu.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
@@ -483,6 +506,37 @@ namespace Oxu.Persistance.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Oxu.Domain.Entities.TagTranslation", b =>
+                {
+                    b.HasOne("Oxu.Domain.Entities.Tag", "Tag")
+                        .WithMany("Tags")
+                        .HasForeignKey("TagId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.OwnsOne("Oxu.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<Guid>("TagTranslationId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("TagTranslationId");
+
+                            b1.ToTable("TagsTranslations");
+
+                            b1.WithOwner()
+                                .HasForeignKey("TagTranslationId");
+                        });
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
+
+                    b.Navigation("Tag");
+                });
+
             modelBuilder.Entity("Oxu.Domain.Entities.Category", b =>
                 {
                     b.Navigation("CategoryTranslations");
@@ -507,6 +561,8 @@ namespace Oxu.Persistance.Migrations
             modelBuilder.Entity("Oxu.Domain.Entities.Tag", b =>
                 {
                     b.Navigation("NewsAndTags");
+
+                    b.Navigation("Tags");
                 });
 #pragma warning restore 612, 618
         }

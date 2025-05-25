@@ -9,6 +9,7 @@ using Oxu.Domain.DTOs.NewsAndTag;
 using Oxu.Domain.DTOs.NewsTranslation;
 using Oxu.Domain.DTOs.Reactions;
 using Oxu.Domain.DTOs.Tag;
+using Oxu.Domain.DTOs.TagTranslation;
 using Oxu.Domain.Entities;
 
 namespace Oxu.Persistance.Mapper
@@ -60,6 +61,11 @@ namespace Oxu.Persistance.Mapper
             #region NewsAndTag
             CreateMap<NewsAndTag,CreateNewsAndTagDto>().ReverseMap();
             CreateMap<NewsAndTag, NewsAndTagDto>().ReverseMap();
+            #endregion
+
+            #region TagTranslation
+            CreateMap<CreateTagTranslationDto, TagTranslation>().ReverseMap();
+            CreateMap<TagTranslationDto, TagTranslation>().ReverseMap();
             #endregion
         }
     }
