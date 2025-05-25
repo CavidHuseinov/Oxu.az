@@ -1,5 +1,6 @@
 ﻿
 using Oxu.Domain.Abstractions;
+using Oxu.Domain.DTOs.NewsAndTag;
 
 namespace Oxu.Domain.DTOs.Tag
 {
